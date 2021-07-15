@@ -47,6 +47,7 @@ header{
      padding: 50px 50px;
      box-sizing: border-box;
  }
+ 
  .modal-window .cross{
      display: block;
      background-color: black;

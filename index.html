@@ -11,24 +11,26 @@
 
 <body>
     <header>
-        <button class="btn-grad" onclick="showModal()">Button 1</button>
-        <div class="modal-window">
+        <button class="btn-grad" onclick="showModalWindow();">Button 1</button>
+        <div class="modal-window" id="modal-window">
 
             <div class="text-area">
-                <div class="cross line1"></div>
-                <div class="cross line2"></div>
+                <div class="close-icon" onclick="closeModalWindow()">
+                    <div class="cross line1"></div>
+                    <div class="cross line2"></div>
+                </div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium
                 necessitatibus sapiente. Sequi, sed nobis, reprehenderit a minus iure possimus dolorem placeat, beatae
                 cum doloremque. Aliquam sint facere repellendus explicabo, amet vero earum fugiat, laboriosam sapiente
                 unde molestias dolore impedit consectetur iusto mollitia doloremque quam quos placeat magni consequatur!
                 Accusantium.
             </div>
-            <div class="background"></div>
+            <div class="background" onclick="closeModalWindow()"></div>
         </div>
         <button class="btn-grad">Button 2</button>
         <button class="btn-grad">Button 3</button>
     </header>
-    <script src="js/script,js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
